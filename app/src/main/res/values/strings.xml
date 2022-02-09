@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">QUANTUMHUNTS</string>
+    <string name="login">Login</string>
+    <string name="quantumhunt">QUANTUMHUNTS</string>
+    <string name="sign_up"><a href="https://quantumhunts.com/signup/">Sign Up.</a></string>
+    <string name="reset_password"><a href="https://www.google.com/">Reset Password.</a></string>
+    <string name="join_our_pl">Join our platform to search and apply for jobs that love.</string>
+</resources>

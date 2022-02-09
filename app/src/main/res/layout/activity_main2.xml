@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bg"
     tools:context=".MainActivity2">
 
     <ImageView
@@ -14,21 +15,21 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.341"
+        app:layout_constraintVertical_bias="0.31"
         app:srcCompat="@drawable/hiringteam" />
+
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="108dp"
-        android:layout_height="92dp"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.068"
+        app:layout_constraintVertical_bias="0.025"
         app:srcCompat="@drawable/square1_qh" />
-
 
     <TextView
         android:id="@+id/join_our_pl"
@@ -73,6 +74,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginTop="36dp"
         android:background="@drawable/loginbutton"
+        android:fontFamily="sans-serif-black"
         android:text="Login"
         android:textAllCaps="false"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -82,12 +84,13 @@
         app:layout_constraintTop_toBottomOf="@+id/join_our_pl"
         app:layout_constraintVertical_bias="0.0" />
 
+
     <!--    <Button-->
-<!--        android:id="@+id/button2"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="Button"-->
-<!--        tools:layout_editor_absoluteX="330dp"-->
-<!--        tools:layout_editor_absoluteY="91dp" />-->
+    <!--        android:id="@+id/button2"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="Button"-->
+    <!--        tools:layout_editor_absoluteX="330dp"-->
+    <!--        tools:layout_editor_absoluteY="91dp" />-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>

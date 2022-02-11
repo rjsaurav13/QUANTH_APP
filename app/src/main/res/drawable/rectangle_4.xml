@@ -1,12 +1,9 @@
 <!-- drawable/rectangle_4.xml -->
-<vector
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:aapt="http://schemas.android.com/aapt"
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
     android:width="135.48dp"
     android:height="45dp"
     android:viewportWidth="135.48"
-    android:viewportHeight="45"
-    >
+    android:viewportHeight="45">
 
     <group>
 
@@ -16,7 +13,7 @@
 
         <path
             android:pathData="M0 0V45H135.484V0"
-            android:fillColor="#536DE6"
+            android:fillColor="#f9c851"
             />
 
     </group>

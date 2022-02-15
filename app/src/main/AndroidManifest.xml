@@ -10,14 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
-            android:name=".MainActivity3_drawwernav"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:name=".MainActivity3"
+            android:exported="false"
+            android:label="@string/title_activity_main3"
+            android:theme="@style/Theme.MyApplication.NoActionBar" />
         <activity
             android:name=".MainActivity2"
             android:exported="false" />

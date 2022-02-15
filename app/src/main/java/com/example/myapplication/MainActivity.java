@@ -1,11 +1,16 @@
 package com.example.myapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.text.method.LinkMovementMethod;
+import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
+import android.widget.Button;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
@@ -24,5 +29,7 @@ public class MainActivity extends AppCompatActivity {
 
         TextView t2 = (TextView) findViewById(R.id.textView8);
         t2.setMovementMethod(LinkMovementMethod.getInstance());
+
     }
+
 }

@@ -6,6 +6,100 @@
     android:layout_height="match_parent"
     tools:context=".signup">
 
+    <View
+        android:id="@+id/rectangle_14"
+        android:layout_width="2dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="444dp"
+        android:layout_marginEnd="13dp"
+        android:background="@drawable/rectangle_4"
+        app:layout_constraintEnd_toStartOf="@+id/rectangle_9"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/rectangle_13"
+        android:layout_width="2dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="360dp"
+        android:layout_marginEnd="13dp"
+        android:background="@drawable/rectangle_4"
+        app:layout_constraintEnd_toStartOf="@+id/rectangle_9"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/rectangle_12"
+        android:layout_width="2dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="604dp"
+        android:layout_marginEnd="13dp"
+        android:background="@drawable/rectangle_4"
+        app:layout_constraintEnd_toStartOf="@+id/rectangle_6"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/rectangle_10"
+        android:layout_width="2dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="528dp"
+        android:layout_marginEnd="13dp"
+        android:background="@drawable/rectangle_4"
+        app:layout_constraintEnd_toStartOf="@+id/rectangle_5"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/rectangle_8"
+        android:layout_width="2dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="182dp"
+        android:layout_marginEnd="13dp"
+        android:background="@drawable/rectangle_4"
+        app:layout_constraintEnd_toStartOf="@+id/rectangle_9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/rectangle_7"
+        android:layout_width="2dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="266dp"
+        android:layout_marginEnd="13dp"
+        android:background="@drawable/rectangle_4"
+        app:layout_constraintEnd_toStartOf="@+id/rectangle_11"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <Button
         android:id="@+id/sign"
         android:layout_width="135.48dp"
@@ -13,62 +107,48 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="16dp"
-        android:background="@drawable/loginbutton"
+        android:layout_marginStart="116dp"
 
+        android:layout_marginTop="19dp"
+        android:background="@drawable/loginbutton"
         android:text="Signup"
         android:textAllCaps="false"
         android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.443"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/rectangle_2"
-        app:layout_constraintVertical_bias="0.966" />
+        app:layout_constraintTop_toBottomOf="@+id/rectangle_6" />
 
     <EditText
         android:id="@+id/rectangle_6"
         android:layout_width="230dp"
         android:layout_height="36dp"
-        android:layout_marginTop="5dp"
-        android:layout_marginBottom="80dp"
+        android:layout_marginStart="83dp"
+        android:layout_marginTop="10dp"
         android:background="@drawable/rectangle_3"
         android:elevation="4dp"
         android:ems="10"
         android:hint=" Enter password"
         android:inputType="textPassword"
         android:paddingStart="3dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.419"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+        app:layout_constraintTop_toBottomOf="@+id/textView14" />
 
     <TextView
         android:id="@+id/textView14"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="80dp"
-        android:layout_marginTop="13dp"
-        android:layout_marginEnd="269dp"
-        android:layout_marginBottom="8dp"
+        android:layout_marginStart="83dp"
+        android:layout_marginTop="10dp"
         android:text="Password"
-        app:layout_constraintBottom_toTopOf="@+id/rectangle_6"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/rectangle_5"
-        app:layout_constraintVertical_bias="0.062" />
+        app:layout_constraintTop_toBottomOf="@+id/rectangle_5" />
 
     <TextView
         android:id="@+id/textView12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="80dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="242dp"
+        android:layout_marginStart="83dp"
+        android:layout_marginTop="17dp"
         android:text="Email address"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/radioButton2" />
 
@@ -76,39 +156,33 @@
         android:id="@+id/rectangle_5"
         android:layout_width="230dp"
         android:layout_height="36dp"
-        android:layout_marginBottom="164dp"
+        android:layout_marginStart="83dp"
+        android:layout_marginTop="10dp"
         android:background="@drawable/rectangle_3"
         android:elevation="4dp"
         android:ems="10"
         android:hint=" Enter email"
         android:inputType="textEmailAddress"
         android:paddingStart="3dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.441"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
 
     <RadioButton
         android:id="@+id/radioButton"
         android:layout_width="92dp"
         android:layout_height="35dp"
-        android:layout_marginStart="204dp"
-        android:layout_marginTop="11dp"
-        android:layout_marginEnd="18dp"
-        android:layout_marginBottom="146dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="43dp"
         android:text="FEMALE"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/radioButton3"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView13"
-        app:layout_constraintVertical_bias="0.028" />
+        app:layout_constraintStart_toEndOf="@+id/radioButton2"
+        app:layout_constraintTop_toBottomOf="@+id/datePickerButton" />
 
     <TextView
         android:id="@+id/textView13"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="80dp"
-        android:layout_marginTop="8dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="83dp"
+        android:layout_marginTop="11dp"
         android:text="GENDER"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/datePickerButton" />
@@ -117,8 +191,8 @@
         android:id="@+id/textView21"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="80dp"
-        android:layout_marginTop="12dp"
+        android:layout_marginStart="83dp"
+        android:layout_marginTop="20dp"
         android:text="DATE OF BIRTH"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/rectangle_11" />
@@ -127,60 +201,51 @@
         android:id="@+id/rectangle_11"
         android:layout_width="230dp"
         android:layout_height="36dp"
-        android:layout_marginTop="76dp"
-        android:layout_marginBottom="420dp"
+        android:layout_marginStart="83dp"
+        android:layout_marginTop="10dp"
         android:background="@drawable/rectangle_3"
         android:elevation="4dp"
         android:ems="10"
         android:hint=" Enter Last Name"
         android:inputType="textEmailAddress"
         android:paddingStart="3dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.419"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintTop_toBottomOf="@+id/textView20" />
 
     <TextView
         android:id="@+id/textView20"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="76dp"
-        android:layout_marginTop="17dp"
-        android:layout_marginBottom="7dp"
+        android:layout_marginStart="83dp"
+        android:layout_marginTop="12dp"
         android:text="LAST NAME"
-        app:layout_constraintBottom_toTopOf="@+id/rectangle_11"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/rectangle_9"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toBottomOf="@+id/rectangle_9" />
 
     <TextView
         android:id="@+id/textView18"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="80dp"
-        android:layout_marginBottom="12dp"
+        android:layout_marginStart="83dp"
+        android:layout_marginTop="16dp"
         android:text="FIRST NAME"
-        app:layout_constraintBottom_toTopOf="@+id/rectangle_9"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
 
     <EditText
         android:id="@+id/rectangle_9"
         android:layout_width="230dp"
         android:layout_height="36dp"
-        android:layout_marginTop="76dp"
-        android:layout_marginBottom="504dp"
+        android:layout_marginStart="83dp"
+        android:layout_marginTop="8dp"
         android:background="@drawable/rectangle_3"
         android:elevation="4dp"
         android:ems="10"
         android:hint=" Enter First Name"
         android:inputType="textEmailAddress"
         android:paddingStart="3dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.436"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintTop_toBottomOf="@+id/textView18" />
 
     <ImageView
         android:id="@+id/imageView4"
@@ -212,13 +277,10 @@
         android:layout_width="240dp"
         android:layout_height="42dp"
         android:layout_marginStart="82dp"
-        android:layout_marginTop="12dp"
-        android:layout_marginEnd="82dp"
+        android:layout_marginTop="15dp"
         android:text="Don't have an account? Create your account, it takes less than a minute"
         android:textSize="15dp"
         android:textStyle="normal|bold|italic"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView4" />
 
@@ -227,14 +289,12 @@
         style="?android:spinnerStyle"
         android:layout_width="235dp"
         android:layout_height="55dp"
-        android:layout_marginStart="80dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginRight="96dp"
+        android:layout_marginStart="83dp"
+        android:layout_marginTop="11dp"
         android:onClick="openDatePicker"
         android:text="JAN 01 2020"
         android:textColor="@color/black"
         android:textSize="30sp"
-        app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView21"
         tools:ignore="OnClick" />
@@ -243,13 +303,10 @@
         android:id="@+id/radioButton2"
         android:layout_width="92dp"
         android:layout_height="35dp"
-        android:layout_marginStart="80dp"
-        android:layout_marginTop="11dp"
-        android:layout_marginBottom="146dp"
+        android:layout_marginStart="83dp"
+        android:layout_marginTop="12dp"
         android:text="MALE"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView13"
-        app:layout_constraintVertical_bias="0.028" />
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

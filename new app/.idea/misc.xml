@@ -3,6 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/QUANTUMHUNTS_Internship-master/QUANTUMHUNTS_Internship-master/QUANTH_APP/new app/app/src/main/res/drawable/ic_baseline_more_24.xml" value="0.1" />
+        <entry key="..\:/QUANTUMHUNTS_Internship-master/QUANTUMHUNTS_Internship-master/QUANTH_APP/new app/app/src/main/res/drawable/ic_launcher_background.xml" value="0.195" />
+        <entry key="..\:/QUANTUMHUNTS_Internship-master/QUANTUMHUNTS_Internship-master/QUANTH_APP/new app/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/QUANTUMHUNTS_Internship-master/QUANTUMHUNTS_Internship-master/QUANTH_APP/new app/app/src/main/res/layout/activity_main2.xml" value="0.4" />
+        <entry key="..\:/QUANTUMHUNTS_Internship-master/QUANTUMHUNTS_Internship-master/QUANTH_APP/new app/app/src/main/res/layout/activity_main3.xml" value="0.12082066869300911" />
+        <entry key="..\:/QUANTUMHUNTS_Internship-master/QUANTUMHUNTS_Internship-master/QUANTH_APP/new app/app/src/main/res/layout/activity_main4.xml" value="0.1408514492753623" />
+        <entry key="..\:/QUANTUMHUNTS_Internship-master/QUANTUMHUNTS_Internship-master/QUANTH_APP/new app/app/src/main/res/layout/activity_signup.xml" value="0.23731884057971014" />
+        <entry key="..\:/QUANTUMHUNTS_Internship-master/QUANTUMHUNTS_Internship-master/QUANTH_APP/new app/app/src/main/res/layout/activity_splash.xml" value="0.1" />
+        <entry key="..\:/QUANTUMHUNTS_Internship-master/QUANTUMHUNTS_Internship-master/QUANTH_APP/new app/app/src/main/res/layout/fragment_gallery.xml" value="0.1" />
+        <entry key="..\:/QUANTUMHUNTS_Internship-master/QUANTUMHUNTS_Internship-master/QUANTH_APP/new app/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/QUANTUMHUNTS_Internship-master/QUANTUMHUNTS_Internship-master/QUANTH_APP/new app/app/src/main/res/layout/fragment_slideshow.xml" value="0.1" />
+        <entry key="..\:/QUANTUMHUNTS_Internship-master/QUANTUMHUNTS_Internship-master/QUANTH_APP/new app/app/src/main/res/layout/signup.xml" value="0.264" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApplication/app/src/main/res/drawable-v24/loginbutton.xml" value="0.262" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApplication/app/src/main/res/drawable-v24/rectangle_4.xml" value="0.262" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/button_selector.xml" value="0.262" />
@@ -43,5 +55,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.1" />
+      </ProjectState>
+    </option>
   </component>
 </project>

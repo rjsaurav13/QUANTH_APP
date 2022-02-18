@@ -30,7 +30,7 @@
         android:background="@drawable/rectangle_3"
         android:elevation="4dp"
         android:ems="10"
-        android:hint=" Enter your password"
+        android:hint=" Enter password"
         android:inputType="textPassword"
         android:paddingStart="3dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -53,8 +53,8 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="108dp"
-        android:layout_height="92dp"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
         android:foregroundGravity="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -63,6 +63,9 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.079"
         app:srcCompat="@drawable/square1_qh" />
+
+
+    <!-- Rectangle 3 -->
 
     <TextView
         android:id="@+id/textView2"
@@ -82,10 +85,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.49"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
-
-
-    <!-- Rectangle 3 -->
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="1.0" />
 
     <EditText
         android:id="@+id/rectangle_3"
@@ -96,7 +97,7 @@
         android:background="@drawable/rectangle_3"
         android:elevation="4dp"
         android:ems="10"
-        android:hint=" Enter your email"
+        android:hint=" Enter email"
         android:inputType="textEmailAddress"
         android:paddingStart="3dp"
         app:layout_constraintBottom_toBottomOf="parent"

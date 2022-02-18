@@ -21,8 +21,8 @@
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="108dp"
-        android:layout_height="92dp"
+        android:layout_width="84dp"
+        android:layout_height="84dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -30,6 +30,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.025"
         app:srcCompat="@drawable/square1_qh" />
+
 
     <TextView
         android:id="@+id/join_our_pl"
@@ -46,8 +47,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.745" />
-
+        app:layout_constraintVertical_bias="0.634" />
 
     <Button
         android:id="@+id/button1"
@@ -56,7 +56,7 @@
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:layout_marginTop="36dp"
-        android:background="@drawable/signupbutton"
+        android:background="@drawable/loginbutton"
         android:text="Sign Up"
         android:textAllCaps="false"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -64,7 +64,7 @@
         app:layout_constraintHorizontal_bias="0.199"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/join_our_pl"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.518" />
 
     <Button
         android:id="@+id/button2"
@@ -81,7 +81,7 @@
         app:layout_constraintHorizontal_bias="0.807"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/join_our_pl"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.514" />
 
     <!--    <Button-->
 <!--        android:id="@+id/button2"-->

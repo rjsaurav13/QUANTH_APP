@@ -22,8 +22,7 @@ public class MainActivity2 extends AppCompatActivity {
 
 //        Button signup = findViewById(R.id.button1);
         Button login= findViewById(R.id.button2);
-        Button signup = (Button) findViewById(R.id.button1);
-        signup.setMovementMethod(LinkMovementMethod.getInstance());
+        Button signup =findViewById(R.id.button1);
 
         login.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -35,10 +34,9 @@ public class MainActivity2 extends AppCompatActivity {
 
         signup.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-                Intent viewIntent =
-                        new Intent("android.intent.action.VIEW",
-                                Uri.parse("https://quantumhunts.com/signup/"));
-                startActivity(viewIntent);
+
+                    Intent i = new Intent(MainActivity2.this,signup.class);
+                    startActivity(i);
             }
         });
 

@@ -22,11 +22,24 @@ public class MainActivity extends AppCompatActivity {
         getSupportActionBar().hide();
         setContentView(R.layout.activity_main);
 
-        TextView t1 = (TextView) findViewById(R.id.textView6);
-        t1.setMovementMethod(LinkMovementMethod.getInstance());
+        TextView t1 = (TextView) findViewById(R.id.signupp);
+        t1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(MainActivity.this,signup.class);
+                startActivity(i);
+            }
+        });
 
-        TextView t2 = (TextView) findViewById(R.id.textView8);
-        t2.setMovementMethod(LinkMovementMethod.getInstance());
+        TextView t2 = (TextView) findViewById(R.id.reset);
+        t2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(MainActivity.this,resetpass.class);
+                startActivity(i);
+            }
+        });
+
 
         Button login= findViewById(R.id.nav_jobs);
         login.setOnClickListener(new View.OnClickListener() {

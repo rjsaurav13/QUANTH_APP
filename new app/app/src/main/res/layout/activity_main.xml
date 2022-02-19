@@ -106,6 +106,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
 
+
     <View
         android:id="@+id/rectangle_4"
         android:layout_width="2dp"
@@ -142,16 +143,19 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="208dp"
-        android:background="@drawable/rectangle_4"
-        android:text="Login"
-        android:textAllCaps="false"
-        android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/rectangle_2"
-        app:layout_constraintVertical_bias="0.966" />
+        app:layout_constraintVertical_bias="0.966"
+        android:background="@drawable/rectangle_4"
+        android:text="Login"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+ />
+
+
 
     <TextView
         android:id="@+id/textView7"
@@ -166,7 +170,7 @@
         app:layout_constraintVertical_bias="0.824" />
 
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/signupp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/sign_up"
@@ -190,7 +194,7 @@
         app:layout_constraintVertical_bias="0.782" />
 
     <TextView
-        android:id="@+id/textView8"
+        android:id="@+id/reset"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/reset_password"

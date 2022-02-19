@@ -103,7 +103,7 @@
     <Button
         android:id="@+id/sign"
         android:layout_width="135.48dp"
-        android:layout_height="45dp"
+        android:layout_height="48dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
@@ -120,7 +120,7 @@
     <EditText
         android:id="@+id/rectangle_6"
         android:layout_width="230dp"
-        android:layout_height="36dp"
+        android:layout_height="48dp"
         android:layout_marginStart="83dp"
         android:layout_marginTop="10dp"
         android:background="@drawable/rectangle_3"
@@ -155,7 +155,7 @@
     <EditText
         android:id="@+id/rectangle_5"
         android:layout_width="230dp"
-        android:layout_height="36dp"
+        android:layout_height="48dp"
         android:layout_marginStart="83dp"
         android:layout_marginTop="10dp"
         android:background="@drawable/rectangle_3"
@@ -200,7 +200,7 @@
     <EditText
         android:id="@+id/rectangle_11"
         android:layout_width="230dp"
-        android:layout_height="36dp"
+        android:layout_height="48dp"
         android:layout_marginStart="83dp"
         android:layout_marginTop="10dp"
         android:background="@drawable/rectangle_3"

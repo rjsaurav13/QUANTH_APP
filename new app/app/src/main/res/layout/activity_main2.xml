@@ -56,7 +56,6 @@
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:layout_marginTop="36dp"
-
         android:background="@drawable/loginbutton"
         android:text="Sign Up"
         android:textAllCaps="false"
@@ -75,6 +74,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginTop="36dp"
         android:background="@drawable/loginbutton"
+        android:backgroundTint="@color/red"
         android:text="Login"
         android:textAllCaps="false"
         app:layout_constraintBottom_toBottomOf="parent"

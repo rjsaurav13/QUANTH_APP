@@ -13,6 +13,8 @@ public class resetpass extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_resetpass);
        Button button = (Button) findViewById(R.id.button2);
+       getSupportActionBar().hide();
+
 
 
         button.setOnClickListener(new View.OnClickListener() {
@@ -23,8 +25,15 @@ public class resetpass extends AppCompatActivity {
         });
     }
     public void openMainActivity2() {
-        Intent intent = new Intent(this, MainActivity2.class);
+        Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
     }
 }
+
+
+
+
+
+
+
 

@@ -9,31 +9,32 @@
     <View
         android:id="@+id/rectangle_15"
         android:layout_width="2dp"
-        android:layout_height="40dp"
+        android:layout_height="48dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"
         android:layout_marginStart="27dp"
-        android:layout_marginTop="620dp"
+        android:layout_marginTop="616dp"
         android:layout_marginEnd="11dp"
         android:background="@drawable/rectangle_4"
         app:layout_constraintEnd_toStartOf="@+id/rectangle_6"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <View
         android:id="@+id/rectangle_14"
         android:layout_width="2dp"
-        android:layout_height="40dp"
+        android:layout_height="35dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"
         android:layout_marginStart="27dp"
-        android:layout_marginTop="456dp"
+        android:layout_marginTop="448dp"
         android:layout_marginEnd="11dp"
         android:background="@drawable/rectangle_4"
         app:layout_constraintEnd_toStartOf="@+id/radioButton2"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -56,31 +57,32 @@
     <View
         android:id="@+id/rectangle_12"
         android:layout_width="2dp"
-        android:layout_height="40dp"
+        android:layout_height="48dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"
         android:layout_marginStart="27dp"
-        android:layout_marginTop="532dp"
+        android:layout_marginTop="528dp"
         android:layout_marginEnd="11dp"
         android:background="@drawable/rectangle_4"
         app:layout_constraintEnd_toStartOf="@+id/rectangle_5"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <View
         android:id="@+id/rectangle_10"
         android:layout_width="2dp"
-        android:layout_height="40dp"
+        android:layout_height="48dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"
         android:layout_marginStart="27dp"
-        android:layout_marginTop="364dp"
+        android:layout_marginTop="356dp"
         android:layout_marginEnd="11dp"
         android:background="@drawable/rectangle_4"
         app:layout_constraintEnd_toStartOf="@+id/datePickerButton"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -92,10 +94,11 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"
         android:layout_marginStart="27dp"
-        android:layout_marginTop="182dp"
+        android:layout_marginTop="180dp"
         android:layout_marginEnd="11dp"
         android:background="@drawable/rectangle_4"
         app:layout_constraintEnd_toStartOf="@+id/rectangle_9"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -107,10 +110,11 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"
         android:layout_marginStart="27dp"
-        android:layout_marginTop="268dp"
+        android:layout_marginTop="260dp"
         android:layout_marginEnd="11dp"
         android:background="@drawable/rectangle_4"
         app:layout_constraintEnd_toStartOf="@+id/rectangle_11"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -123,13 +127,14 @@
         android:layout_alignParentBottom="true"
         android:layout_marginStart="137dp"
 
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="6dp"
         android:layout_marginEnd="138dp"
         android:background="@drawable/loginbutton"
         android:text="Signup"
         android:textAllCaps="false"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/rectangle_6" />
 
@@ -138,7 +143,7 @@
         android:layout_width="330dp"
         android:layout_height="48dp"
         android:layout_marginStart="40dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="6dp"
         android:background="@drawable/rectangle_3"
         android:elevation="4dp"
         android:ems="10"
@@ -166,7 +171,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
         android:layout_marginTop="20dp"
-        android:layout_marginBottom="8dp"
+        android:layout_marginBottom="20dp"
         android:text="Email address"
         app:layout_constraintBottom_toTopOf="@+id/rectangle_5"
         app:layout_constraintStart_toStartOf="parent"
@@ -222,7 +227,7 @@
     <EditText
         android:id="@+id/rectangle_11"
         android:layout_width="330dp"
-        android:layout_height="48dp"
+        android:layout_height="40dp"
         android:layout_marginStart="40dp"
         android:layout_marginTop="4dp"
         android:background="@drawable/rectangle_3"
@@ -261,7 +266,7 @@
     <EditText
         android:id="@+id/rectangle_9"
         android:layout_width="330dp"
-        android:layout_height="36dp"
+        android:layout_height="40dp"
         android:layout_marginStart="40dp"
         android:layout_marginTop="4dp"
         android:background="@drawable/rectangle_3"
@@ -300,7 +305,7 @@
 
     <TextView
         android:id="@+id/textView11"
-        android:layout_width="240dp"
+        android:layout_width="350dp"
         android:layout_height="42dp"
         android:layout_marginStart="85dp"
         android:layout_marginTop="15dp"

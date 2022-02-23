@@ -11,7 +11,7 @@
         <entry key="..\:/QUANTUMHUNTS_Internship-master/QUANTUMHUNTS_Internship-master/QUANTH_APP/new app/app/src/main/res/layout/activity_confirmation.xml" value="0.2484375" />
         <entry key="..\:/QUANTUMHUNTS_Internship-master/QUANTUMHUNTS_Internship-master/QUANTH_APP/new app/app/src/main/res/layout/activity_login_page.xml" value="0.23333333333333334" />
         <entry key="..\:/QUANTUMHUNTS_Internship-master/QUANTUMHUNTS_Internship-master/QUANTH_APP/new app/app/src/main/res/layout/activity_main.xml" value="0.264" />
-        <entry key="..\:/QUANTUMHUNTS_Internship-master/QUANTUMHUNTS_Internship-master/QUANTH_APP/new app/app/src/main/res/layout/activity_main2.xml" value="0.2621951219512195" />
+        <entry key="..\:/QUANTUMHUNTS_Internship-master/QUANTUMHUNTS_Internship-master/QUANTH_APP/new app/app/src/main/res/layout/activity_main2.xml" value="0.1" />
         <entry key="..\:/QUANTUMHUNTS_Internship-master/QUANTUMHUNTS_Internship-master/QUANTH_APP/new app/app/src/main/res/layout/activity_main3.xml" value="0.12082066869300911" />
         <entry key="..\:/QUANTUMHUNTS_Internship-master/QUANTUMHUNTS_Internship-master/QUANTH_APP/new app/app/src/main/res/layout/activity_main4.xml" value="0.1408514492753623" />
         <entry key="..\:/QUANTUMHUNTS_Internship-master/QUANTUMHUNTS_Internship-master/QUANTH_APP/new app/app/src/main/res/layout/activity_my_profile.xml" value="0.1743659420289855" />
@@ -19,6 +19,7 @@
         <entry key="..\:/QUANTUMHUNTS_Internship-master/QUANTUMHUNTS_Internship-master/QUANTH_APP/new app/app/src/main/res/layout/activity_resetpass.xml" value="0.2" />
         <entry key="..\:/QUANTUMHUNTS_Internship-master/QUANTUMHUNTS_Internship-master/QUANTH_APP/new app/app/src/main/res/layout/activity_signup.xml" value="0.23731884057971014" />
         <entry key="..\:/QUANTUMHUNTS_Internship-master/QUANTUMHUNTS_Internship-master/QUANTH_APP/new app/app/src/main/res/layout/activity_splash.xml" value="0.1" />
+        <entry key="..\:/QUANTUMHUNTS_Internship-master/QUANTUMHUNTS_Internship-master/QUANTH_APP/new app/app/src/main/res/layout/aftersignup.xml" value="0.2" />
         <entry key="..\:/QUANTUMHUNTS_Internship-master/QUANTUMHUNTS_Internship-master/QUANTH_APP/new app/app/src/main/res/layout/app_bar_main.xml" value="0.1" />
         <entry key="..\:/QUANTUMHUNTS_Internship-master/QUANTUMHUNTS_Internship-master/QUANTH_APP/new app/app/src/main/res/layout/content_main.xml" value="0.2164855072463768" />
         <entry key="..\:/QUANTUMHUNTS_Internship-master/QUANTUMHUNTS_Internship-master/QUANTH_APP/new app/app/src/main/res/layout/fragment_gallery.xml" value="0.1" />
@@ -27,7 +28,7 @@
         <entry key="..\:/QUANTUMHUNTS_Internship-master/QUANTUMHUNTS_Internship-master/QUANTH_APP/new app/app/src/main/res/layout/main.xml" value="0.2" />
         <entry key="..\:/QUANTUMHUNTS_Internship-master/QUANTUMHUNTS_Internship-master/QUANTH_APP/new app/app/src/main/res/layout/nav_header_main.xml" value="0.2164855072463768" />
         <entry key="..\:/QUANTUMHUNTS_Internship-master/QUANTUMHUNTS_Internship-master/QUANTH_APP/new app/app/src/main/res/layout/reset_password.xml" value="0.1" />
-        <entry key="..\:/QUANTUMHUNTS_Internship-master/QUANTUMHUNTS_Internship-master/QUANTH_APP/new app/app/src/main/res/layout/signup.xml" value="0.12" />
+        <entry key="..\:/QUANTUMHUNTS_Internship-master/QUANTUMHUNTS_Internship-master/QUANTH_APP/new app/app/src/main/res/layout/signup.xml" value="0.19696969696969696" />
         <entry key="..\:/QUANTUMHUNTS_Internship-master/QUANTUMHUNTS_Internship-master/QUANTH_APP/new app/app/src/main/res/menu/activity_main_drawer.xml" value="0.1" />
         <entry key="..\:/QUANTUMHUNTS_Internship-master/QUANTUMHUNTS_Internship-master/QUANTH_APP/new app/app/src/main/res/menu/main_activity3.xml" value="0.1" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MyApplication/app/src/main/res/drawable-v24/loginbutton.xml" value="0.262" />

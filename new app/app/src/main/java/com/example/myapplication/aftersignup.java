@@ -12,6 +12,7 @@ public class aftersignup extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getSupportActionBar().hide();
         setContentView(R.layout.aftersignup);
         Button signup =findViewById(R.id.button3);
 

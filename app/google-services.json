@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "727652287075",
+    "firebase_url": "https://quantumhunts-9380c-default-rtdb.firebaseio.com",
+    "project_id": "quantumhunts-9380c",
+    "storage_bucket": "quantumhunts-9380c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:727652287075:android:25fd4e0cb003cb4a566e56",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "727652287075-ip0849lqdlno7d5vtc7avs7aj25s57m7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHCRLGz_3tr25MBpqZsJQwBxxLZM8ZjDY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "727652287075-ip0849lqdlno7d5vtc7avs7aj25s57m7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
